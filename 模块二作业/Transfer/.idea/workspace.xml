@@ -286,6 +286,7 @@
       <workItem from="1578399819990" duration="251000" />
       <workItem from="1578401738390" duration="4422000" />
       <workItem from="1578446327685" duration="21454000" />
+      <workItem from="1578533738265" duration="4504000" />
     </task>
     <servers />
   </component>
@@ -309,22 +310,22 @@
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
     <state x="683" y="324" key="FileChooserDialogImpl/0.0.1805.1163@0.0.1805.1163" timestamp="1578399996144" />
-    <state width="1762" height="133" key="GridCell.Tab.0.bottom" timestamp="1578474161391">
+    <state width="1762" height="291" key="GridCell.Tab.0.bottom" timestamp="1578552922605">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1762" height="133" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1578474161391" />
-    <state width="1762" height="133" key="GridCell.Tab.0.center" timestamp="1578474161390">
+    <state width="1762" height="291" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1578552922605" />
+    <state width="1762" height="291" key="GridCell.Tab.0.center" timestamp="1578552922604">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1762" height="133" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1578474161390" />
-    <state width="1762" height="133" key="GridCell.Tab.0.left" timestamp="1578474161390">
+    <state width="1762" height="291" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1578552922604" />
+    <state width="1762" height="291" key="GridCell.Tab.0.left" timestamp="1578552922604">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1762" height="133" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1578474161390" />
-    <state width="1762" height="133" key="GridCell.Tab.0.right" timestamp="1578474161390">
+    <state width="1762" height="291" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1578552922604" />
+    <state width="1762" height="291" key="GridCell.Tab.0.right" timestamp="1578552922604">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1762" height="133" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1578474161390" />
+    <state width="1762" height="291" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1578552922604" />
     <state width="1762" height="283" key="GridCell.Tab.1.bottom" timestamp="1578474159459">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
@@ -375,15 +376,6 @@
     <state x="565" y="256" width="672" height="678" key="search.everywhere.popup/0.0.1805.1163@0.0.1805.1163" timestamp="1578462240899" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lagou/edu/factory/MyBeanFactory.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="classNameList.get(8)" />

@@ -5,6 +5,7 @@ com\lagou\edu\factory\ProxyFactory$2.class
 com\lagou\edu\servlet\TransferServlet.class
 com\lagou\edu\utils\JsonUtils.class
 com\lagou\edu\utils\DruidUtils.class
+com\lagou\edu\factory\MyBeanFactory$2.class
 com\lagou\edu\annotation\Component.class
 com\lagou\edu\factory\MyBeanFactory$1.class
 com\lagou\edu\pojo\Account.class
