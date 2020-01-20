@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        https://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
+
+    <!--开启controller扫描-->
+    <context:component-scan base-package="com.lagou.edu.controller"/>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--注解驱动，自动注册的合适的组件-->
+    <mvc:annotation-driven/>
+
+    <mvc:default-servlet-handler/>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--配置当前拦截器的url拦截规则，**代表当前⽬录下及其⼦⽬录下的所有url-->
+            <mvc:mapping path="/**"/>
+            <!--exclude-mapping可以在mapping的基础上排除⼀些url拦截-->
+            <mvc:exclude-mapping path="/login"/>
+            <mvc:exclude-mapping path="/css/**"/>
+            <mvc:exclude-mapping path="/js/**"/>
+            <!--<mvc:exclude-mapping path="/template/**"/>-->
+            <bean class="com.lagou.edu.interceptor.LoginIntercepter"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>
