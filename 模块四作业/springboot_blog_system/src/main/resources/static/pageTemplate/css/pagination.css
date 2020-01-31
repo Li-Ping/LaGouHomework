@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.page-box {
+    position: relative;
+    text-align: center;
+    zoom: 1;
+}
+
+.page-box:before,
+.page-box:after {
+    content: "";
+    display: table;
+}
+
+.page-box:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.page-box span {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.page-box .active {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background: #01CC72;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #01CC72;
+}
+
+.page-box a {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    color: #888;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+
+.page-box a:hover {
+    color: #fff;
+    background: #01CC72;
+}
+
+.page-box .next,
+.page-box .prev {
+    font-size: 14px;
+    /*font-weight: bold;*/
+}
+
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.eg img {
+    max-width: 800px;
+    min-height: 500px;
+}
+
+input {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+    color: #bdbdbd;
+    font-size: 14px;
+}
