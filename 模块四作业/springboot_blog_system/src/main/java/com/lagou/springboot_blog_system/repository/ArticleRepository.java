@@ -9,10 +9,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * @author:LiPing
- * @description：
+ * @description：文章Repository
  * @date:Created in 14:47 2020/1/29 0029
  */
 public interface ArticleRepository extends JpaRepository<Article,Integer> {
 
-    //Page<Article> findAll(Specification<Article> spec, Pageable pageable);
 }

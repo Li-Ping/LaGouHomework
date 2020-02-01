@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author:LiPing
- * @description：
+ * @description：文章Service
  * @date:Created in 18:33 2020/1/31 0031
  */
 @Service
@@ -20,6 +20,11 @@ public class ArticleService {
     @Autowired
     private ArticleRepository articleRepository;
 
+    /**
+     * 分页查询文章信息
+     * @param pageNum
+     * @return
+     */
     public Page<Article> getArticleList(Integer pageNum){
         Pageable pageable  = PageRequest.of(pageNum - 1,3);
         Page<Article> articles = articleRepository.findAll(pageable);

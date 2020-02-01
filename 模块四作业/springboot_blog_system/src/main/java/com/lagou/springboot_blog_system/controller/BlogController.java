@@ -17,7 +17,7 @@ import java.util.Set;
 
 /**
  * @author:LiPing
- * @description：
+ * @description：博客Controller
  * @date:Created in 17:00 2020/1/31 0031
  */
 @Controller
@@ -26,6 +26,11 @@ public class BlogController {
     @Autowired
     private ArticleService articleService;
 
+    /**
+     * 分页查询文章信息
+     * @param pageNum
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/getArticleList")
     public Map<String, Object> getArticleList(int pageNum){
@@ -37,11 +42,19 @@ public class BlogController {
         return data;
     }
 
+    /**
+     * 分页查询文章信息
+     * @param pageNum
+     * @param model
+     * @return
+     */
     @RequestMapping("/getArticles")
     public String getArticles(@RequestParam(value = "pageNum",required = false) Integer pageNum, Model model){
+        // 初始查询页数为 1
         if (pageNum == null){
             pageNum = 1;
         }
+        // 根据当前页查询文章
         Page<Article> articleList = articleService.getArticleList(pageNum);
         model.addAttribute("articleList",articleList);
         model.addAttribute("totalNum",articleList.getTotalPages());

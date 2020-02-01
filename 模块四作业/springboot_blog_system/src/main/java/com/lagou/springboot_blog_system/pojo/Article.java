@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * @author:LiPing
- * @description：
+ * @description：文章实体
  * @date:Created in 18:30 2020/1/31 0031
  */
 @Entity
