@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2d88502-455b-4daa-81e0-0e3bb0f81702" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1Xk1K9oplv7DbmDk7ZO4o7qhz0f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/Java训练营20191227/Java_L2_2019.12.23/02_讲义/第二阶段/Tomcat&amp;Nginx资料/代码/Minicat" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpace\minicat\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Bootstrap" />
+      <module name="minicat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bootstrap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2d88502-455b-4daa-81e0-0e3bb0f81702" name="Default Changelist" comment="" />
+      <created>1581575211874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581575211874</updated>
+      <workItem from="1581575215263" duration="1305000" />
+      <workItem from="1581754300184" duration="6321000" />
+      <workItem from="1581819705855" duration="7020000" />
+      <workItem from="1582251133811" duration="8639000" />
+      <workItem from="1582352550371" duration="12879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1582358785017">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="708" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1582358785017" />
+    <state x="633" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582364741230">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="633" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1805.1163@0.0.1805.1163" timestamp="1582364741230" />
+    <state x="683" y="338" key="FileChooserDialogImpl" timestamp="1582278465912">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="683" y="338" key="FileChooserDialogImpl/0.0.1805.1163@0.0.1805.1163" timestamp="1582278465912" />
+    <state width="1762" height="218" key="GridCell.Tab.0.bottom" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.0.center" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.0.left" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.0.right" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.1.bottom" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.1.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.1.center" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.1.center/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.1.left" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.1.left/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state width="1762" height="218" key="GridCell.Tab.1.right" timestamp="1582372349438">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="218" key="GridCell.Tab.1.right/0.0.1805.1163@0.0.1805.1163" timestamp="1582372349438" />
+    <state x="625" y="277" key="new project wizard" timestamp="1581836319499">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="625" y="277" key="new project wizard/0.0.1805.1163@0.0.1805.1163" timestamp="1581836319499" />
+    <state x="560" y="272" key="run.anything.popup" timestamp="1582362473322">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="560" y="272" key="run.anything.popup/0.0.1805.1163@0.0.1805.1163" timestamp="1582362473322" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/MyThread.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
