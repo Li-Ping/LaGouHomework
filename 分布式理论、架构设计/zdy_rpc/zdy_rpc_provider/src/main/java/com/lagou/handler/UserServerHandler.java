@@ -28,7 +28,8 @@ public class UserServerHandler extends ChannelInboundHandlerAdapter {
         Object o = Proxy.newProxyInstance(userService.getClass().getClassLoader(), userService.getClass().getInterfaces(), new InvocationHandler() {
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 //method = serviceClass.getMethod(rpcRequest.getMethodName(), rpcRequest.getParameterTypes());
-                return method.invoke(userService, rpcRequest.getParameters());
+                //return method.invoke(userService, rpcRequest.getParameters());
+				return method.invoke(userService, args);
             }
         });
         // 调用代理对象的方法
