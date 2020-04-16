@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01b5811b-4ba9-4bbf-a5b2-7f58500f4eca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ac61GtClBz8JfopYf3VsTaHLs7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo_web_provider/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.23363711" />
+    <property name="project.structure.side.proportion" value="0.18831168" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lagou" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpace\dubbo_transport_filter\dubbo_web_provider\src\main\resources" />
+      <recent name="E:\IDEAWorkSpace\dubbo_transport_filter\dubbo_web\src\main\webapp\WEB-INF" />
+      <recent name="E:\IDEAWorkSpace\dubbo_transport_filter\dubbo_web\src\main" />
+      <recent name="E:\IDEAWorkSpace\dubbo_transport_filter\dubbo_web\src\main\resources" />
+      <recent name="E:\IDEAWorkSpace\dubbo_transport_filter\dubbo_user_provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProviderApplication (1)">
+    <configuration name="ProviderApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.ProviderApplication" />
+      <module name="dubbo_user_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.ProviderApplication" />
+      <module name="dubbo_hello_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="dubbo_web" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="dubbo_web" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProviderApplication" />
+        <item itemvalue="Application.ProviderApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01b5811b-4ba9-4bbf-a5b2-7f58500f4eca" name="Default Changelist" comment="" />
+      <created>1587022317152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587022317152</updated>
+      <workItem from="1587022320132" duration="1692000" />
+      <workItem from="1587024175624" duration="2439000" />
+      <workItem from="1587032113717" duration="1080000" />
+      <workItem from="1587039522809" duration="6042000" />
+      <workItem from="1587045607238" duration="24000" />
+      <workItem from="1587045684286" duration="2842000" />
+      <workItem from="1587048564824" duration="7461000" />
+      <workItem from="1587056076746" duration="1855000" />
+      <workItem from="1587057990955" duration="1007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="978" y="235" key="#HTTP_Proxy" timestamp="1587051599775">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="978" y="235" key="#HTTP_Proxy/0.0.1805.1163@0.0.1805.1163" timestamp="1587051599775" />
+    <state x="495" y="241" key="#Notifications" timestamp="1587039660695">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="495" y="241" key="#Notifications/0.0.1805.1163@0.0.1805.1163" timestamp="1587039660695" />
+    <state x="495" y="241" width="1176" height="681" key="#Project_Structure" timestamp="1587054770143">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="495" y="241" width="1176" height="681" key="#Project_Structure/0.0.1805.1163@0.0.1805.1163" timestamp="1587054770143" />
+    <state x="587" y="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587024881669">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="587" y="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1587024881669" />
+    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1587046704599">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1587046704599" />
+    <state x="754" y="361" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1587053602476">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="754" y="361" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1805.1163@0.0.1805.1163" timestamp="1587053602476" />
+    <state x="633" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587043318424">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="633" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1805.1163@0.0.1805.1163" timestamp="1587043318424" />
+    <state x="820" y="205" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1587055182691">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="820" y="205" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1805.1163@0.0.1805.1163" timestamp="1587055182691" />
+    <state x="897" y="65" width="678" height="824" key="FileChooserDialogImpl" timestamp="1587055968673">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="897" y="65" width="678" height="824" key="FileChooserDialogImpl/0.0.1805.1163@0.0.1805.1163" timestamp="1587055968673" />
+    <state width="1747" height="434" key="GridCell.Tab.0.bottom" timestamp="1587059119832">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1747" height="434" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
+    <state width="1747" height="434" key="GridCell.Tab.0.center" timestamp="1587059119832">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1747" height="434" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
+    <state width="1747" height="434" key="GridCell.Tab.0.left" timestamp="1587059119832">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1747" height="434" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
+    <state width="1747" height="434" key="GridCell.Tab.0.right" timestamp="1587059119832">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1747" height="434" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
+    <state x="433" y="238" key="Maven.ArtifactSearchDialog" timestamp="1587055225120">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="433" y="238" key="Maven.ArtifactSearchDialog/0.0.1805.1163@0.0.1805.1163" timestamp="1587055225120" />
+    <state x="542" y="280" key="NewModule_or_Project.wizard" timestamp="1587045580098">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="542" y="280" key="NewModule_or_Project.wizard/0.0.1805.1163@0.0.1805.1163" timestamp="1587045580098" />
+    <state x="122" y="54" width="1221" height="849" key="SettingsEditor" timestamp="1587057859656">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="122" y="54" width="1221" height="849" key="SettingsEditor/0.0.1805.1163@0.0.1805.1163" timestamp="1587057859656" />
+    <state x="312" y="277" key="new project wizard" timestamp="1587056310096">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="312" y="277" key="new project wizard/0.0.1805.1163@0.0.1805.1163" timestamp="1587056310096" />
+    <state x="565" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1587049811272">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="565" y="256" width="672" height="678" key="search.everywhere.popup/0.0.1805.1163@0.0.1805.1163" timestamp="1587049811272" />
+    <state x="552" y="265" key="spring file set editor" timestamp="1587045304111">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="552" y="265" key="spring file set editor/0.0.1805.1163@0.0.1805.1163" timestamp="1587045304111" />
+  </component>
+</project>
