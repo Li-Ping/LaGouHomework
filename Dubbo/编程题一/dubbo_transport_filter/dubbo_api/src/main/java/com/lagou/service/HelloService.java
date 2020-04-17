@@ -2,6 +2,8 @@ package com.lagou.service;
 
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @author:LiPing
  * @description：
@@ -10,5 +12,5 @@ import org.springframework.stereotype.Service;
 
 public interface HelloService {
 
-    public String hello(String name);
+    public String hello();
 }

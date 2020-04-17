@@ -12,8 +12,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String userInfo() {
-        String IP = RpcContext.getContext().getAttachment("WEB-IP");
-        System.out.println("dubbo-hello-provider,IP is " + IP);
-        return "dubbo-hello-provider,IP is " + IP;
+        String IP = RpcContext.getContext().getAttachment("IP");
+        System.out.println("dubbo-user-provider,IP is " + IP);
+        return "dubbo-user-provider,IP is " + IP;
     }
 }

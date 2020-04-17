@@ -1,8 +1,8 @@
 package com.lagou.edu.controller;
 
-import com.lagou.edu.utils.IPUtils;
 import com.lagou.service.HelloService;
 import com.lagou.service.UserService;
+import com.lagou.utils.IPUtils;
 import org.apache.dubbo.rpc.RpcContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,38 +27,41 @@ public class DemoController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/providerB")
-    public ModelAndView providerB(HttpServletRequest req){
-        String ip = IPUtils.getIP(req);
+    @RequestMapping("/provider")
+    public ModelAndView provider(HttpServletRequest req){
+        String ip = getIPByReq(req);
         System.out.println("IP --->" + ip);
-        RpcContext.getContext().setAttachment("WEB-IP", ip);
-
-        String lzz = helloService.hello("lzz");
+        //IPUtils.setIP(ip);
+        RpcContext.getContext().setAttachment("IP", ip);
+        helloService.hello();
+        userService.userInfo();
         //System.out.println(lzz);
 
         // 封装了数据和页面信息
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("provider", "dubbo-hello-provider: " + ip);
+        modelAndView.addObject("provider", "dubbo-provider: " + ip);
         // 视图信息，封装跳转的页面信息
         modelAndView.setViewName("test");
         return modelAndView;
     }
 
+    public static String getIPByReq(HttpServletRequest req) {
 
-    @RequestMapping("/providerC")
-    public ModelAndView providerC(HttpServletRequest req){
-        String ip = IPUtils.getIP(req);
-        System.out.println("IP --->" + ip);
-        RpcContext.getContext().setAttachment("WEB-IP", ip);
+        String ip = req.getHeader("x-forwarded-for");
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = req.getHeader("Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = req.getHeader("WL-Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = req.getRemoteAddr();
+        }
+        if (ip.equals("0:0:0:0:0:0:0:1")) {
+            ip = "127.0.0.1";
+        }
 
-        userService.userInfo();
-
-        // 封装了数据和页面信息
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("provider", "dubbo-user-provider: " + ip);
-        // 视图信息，封装跳转的页面信息
-        modelAndView.setViewName("test");
-        return modelAndView;
+        return ip;
     }
 
 

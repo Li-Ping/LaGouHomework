@@ -10,3 +10,11 @@
 0:0:0:0:0:0:0:1 - - [17/Apr/2020:01:44:48 +0800] "GET /demo/providerC HTTP/1.1" 200 115 http-bio-8080-exec-3 11
 0:0:0:0:0:0:0:1 - - [17/Apr/2020:01:44:51 +0800] "GET /demo/providerC HTTP/1.1" 200 115 http-bio-8080-exec-4 8
 0:0:0:0:0:0:0:1 - - [17/Apr/2020:01:45:03 +0800] "GET /demo/providerC HTTP/1.1" 200 115 http-bio-8080-exec-6 13
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:25:57 +0800] "GET /demo/providerB HTTP/1.1" 200 116 http-bio-8080-exec-2 1558
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:25:58 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:29:42 +0800] "GET /demo/providerB HTTP/1.1" 200 116 http-bio-8080-exec-2 1455
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:31:33 +0800] "GET /demo/providerB HTTP/1.1" 200 116 http-bio-8080-exec-2 1426
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:35:54 +0800] "GET /demo/providerB HTTP/1.1" 200 116 http-bio-8080-exec-2 1318
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:43:21 +0800] "GET /demo/providerB HTTP/1.1" 200 116 http-bio-8080-exec-2 2023
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:50:29 +0800] "GET /demo/providerB HTTP/1.1" 404 949 http-bio-8080-exec-2 1279
+0:0:0:0:0:0:0:1 - - [17/Apr/2020:10:50:35 +0800] "GET /demo/provider HTTP/1.1" 200 110 http-bio-8080-exec-3 457

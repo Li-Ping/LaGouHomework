@@ -2,7 +2,8 @@ package com.lagou.service.impl;
 
 import com.lagou.service.HelloService;
 import org.apache.dubbo.rpc.RpcContext;
-import org.springframework.stereotype.Service;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author:LiPing
@@ -11,9 +12,17 @@ import org.springframework.stereotype.Service;
  */
 public class HelloServiceImpl implements HelloService {
 
-    @Override
+    /*@Override
     public String hello(String name) {
         String IP = RpcContext.getContext().getAttachment("WEB-IP");
+        System.out.println("dubbo-hello-provider,IP is " + IP);
+        return "dubbo-hello-provider,IP is " + IP;
+    }*/
+
+    @Override
+    public String hello() {
+        String IP = RpcContext.getContext().getAttachment("IP");
+
         System.out.println("dubbo-hello-provider,IP is " + IP);
         return "dubbo-hello-provider,IP is " + IP;
     }

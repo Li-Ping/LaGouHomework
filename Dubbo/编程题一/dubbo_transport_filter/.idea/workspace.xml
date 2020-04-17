@@ -50,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lagou.filter.utils" />
       <recent name="com.lagou" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -136,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProviderApplication" />
         <item itemvalue="Application.ProviderApplication (1)" />
+        <item itemvalue="Application.ProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +173,7 @@
       <workItem from="1587048564824" duration="7461000" />
       <workItem from="1587056076746" duration="1855000" />
       <workItem from="1587057990955" duration="1007000" />
+      <workItem from="1587088636359" duration="3085000" />
     </task>
     <servers />
   </component>
@@ -195,10 +197,10 @@
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
     <state x="587" y="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1587024881669" />
-    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1587046704599">
+    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1587089212776">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1587046704599" />
+    <state x="708" y="292" key="#com.intellij.ide.util.MemberChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1587089212776" />
     <state x="754" y="361" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1587053602476">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
@@ -215,22 +217,22 @@
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
     <state x="897" y="65" width="678" height="824" key="FileChooserDialogImpl/0.0.1805.1163@0.0.1805.1163" timestamp="1587055968673" />
-    <state width="1747" height="434" key="GridCell.Tab.0.bottom" timestamp="1587059119832">
+    <state width="1762" height="373" key="GridCell.Tab.0.bottom" timestamp="1587091838776">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1747" height="434" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
-    <state width="1747" height="434" key="GridCell.Tab.0.center" timestamp="1587059119832">
+    <state width="1762" height="373" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1587091838776" />
+    <state width="1762" height="373" key="GridCell.Tab.0.center" timestamp="1587091838776">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1747" height="434" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
-    <state width="1747" height="434" key="GridCell.Tab.0.left" timestamp="1587059119832">
+    <state width="1762" height="373" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1587091838776" />
+    <state width="1762" height="373" key="GridCell.Tab.0.left" timestamp="1587091838776">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1747" height="434" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
-    <state width="1747" height="434" key="GridCell.Tab.0.right" timestamp="1587059119832">
+    <state width="1762" height="373" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1587091838776" />
+    <state width="1762" height="373" key="GridCell.Tab.0.right" timestamp="1587091838776">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
-    <state width="1747" height="434" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1587059119832" />
+    <state width="1762" height="373" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1587091838776" />
     <state x="433" y="238" key="Maven.ArtifactSearchDialog" timestamp="1587055225120">
       <screen x="0" y="0" width="1805" height="1163" />
     </state>
