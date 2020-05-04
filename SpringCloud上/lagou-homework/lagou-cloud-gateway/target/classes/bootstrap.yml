@@ -1,0 +1,7 @@
+spring:
+  cloud:
+   config:
+     name: lagou-cloud-gateway #配置⽂件名称
+     profile: dev #后缀名称
+     label: master #分⽀名称
+     uri: http://localhost:9006 #ConfigServer配置中⼼地址

@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defalutZone: http://mytesta:8761/eureka/,http://mytestb:8762/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}:@project.version@
+
+spring:
+  application:
+    name: lagou-service-user
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

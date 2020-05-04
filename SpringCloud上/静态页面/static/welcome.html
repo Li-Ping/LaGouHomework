@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	    <h2>欢迎, <span id="username"></span></h2>
+	</body>
+	<script>
+	    window.onload = function() {
+	        const search = location.search.substring(1, location.search.length)
+	        console.log()
+	        search.split('&').forEach(item => {
+	            if(item.indexOf('user=') >= 0) {
+	                const username = item.replace(/user=(.*)/ , '$1')
+	                document.getElementById('username').innerText = username
+	            }
+	        })
+	    }
+	</script>
+</html>

@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: #666666;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-panel {
+    width: 450px;
+    min-height: 150px;
+    padding: 35px 0px 35px 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.login-form {
+    margin: auto;
+}
+
+.login-form .form-item {
+    padding: 8px 20px;
+    display: flex;
+}
+
+.login-form .form-item.register {
+    display: none;
+}
+
+.login-form .form-item span.form-text {
+    display: inline-block;
+    width: 120px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.login-form .form-item span.form-text.captcha {
+    color: #019875;
+}
+
+.login-form .form-item label {
+    display: inline-block;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.login-form .form-item input {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 8px;
+}
+
+.login-form .form-item input:focus {
+    border-color: #019875;
+}
+
+.normal-btn {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #019875;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.normal-btn:hover {
+    opacity: 0.8;
+}
+
+.text-btn {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: transparent;
+    color: #019875;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+
+.text-btn:hover {
+    text-decoration: underline;
+}

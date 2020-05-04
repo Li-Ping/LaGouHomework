@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+	</head>
+	<link rel="stylesheet" href="css/login.css" />
+	<body>
+	    <div class="main">
+	        <div class="login-panel">
+            <form class="login-form" id="login-form">
+                <div class="form-item">
+                    <label>邮 箱：</label>
+                    <input class="my-input" type="text" name="email" >
+                    <span class="form-text"></span>
+                </div>
+                <div class="form-item">
+                    <label>密 码：</label>
+                    <input class="my-input" type="password" name="password" >
+                    <span class="form-text"></span>
+                </div>
+                <!-- 登录 -->
+                <div class="form-item login" style="margin-top: 20px;">
+                    <button class="normal-btn" type="button" id="do-login">登录</button>
+                    <span class="form-text"></span>
+                </div>
+                <div class="form-item login">
+                    <button class="text-btn" type="button" id="go-to-register">注册新账号</button>
+                    <span class="form-text"></span>
+                </div>
+                <!-- END -->
+                
+                <!-- 注册 -->
+                <div class="form-item register">
+                    <label>确认密码：</label>
+                    <input class="my-input" type="password" name="confirm-password" >
+                    <span class="form-text"></span>
+                </div>
+                <div class="form-item register">
+                    <label>验证码：</label>
+                    <input class="my-input" type="text" name="captcha" >
+                    <span class="form-text captcha" id="get-captcha">获取验证码</span>
+                </div>
+                <div class="form-item register" style="margin-top: 20px;">
+                    <button class="normal-btn" type="button" id="do-register">注册</button>
+                    <span class="form-text"></span>
+                </div>
+                <div class="form-item register">
+                    <button class="text-btn" type="button" id="go-to-login">登陆账号</button>
+                    <span class="form-text"></span>
+                </div>
+                <!-- END -->
+            </form>
+        </div>
+	    </div>
+	    <script type="text/javascript" src="js/jquery-2.1.1.min.js" ></script>
+	    <script type="text/javascript" src="js/login.js" ></script>
+	</body>
+</html>
