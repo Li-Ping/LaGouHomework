@@ -17,8 +17,8 @@ spring:
       server:
         git:
           uri: https://github.com/Li-Ping/config-repo.git
-          username: 1635335126@qq.com
-          password: biubiu0501
+          username: ****
+          password: ****
           search-paths:
             - config-repo
       label: master
