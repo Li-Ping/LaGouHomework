@@ -1,0 +1,77 @@
+server:
+  port: 8082
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lee?useUnicode=true&characterEncoding=utf8 #jdbc:mysql://47.92.156.231:3306/zdy_mybatis?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名
+
+
+         ## QQ邮箱配置
+  mail:
+    host: smtp.qq.com #smtp.163.com #发送邮件服务器 smtp.qq.com
+    username: 1635335126@qq.com #lzz9393@163.com #1635335126@qq.com #发送邮件的邮箱地址
+    password: setlixnsldmbehag #FVGOGKZYHACHZFEJ  #客户端授权码，不是邮箱密码，这个在qq邮箱设置里面自动生成的
+    properties.mail.smtp.port: 465 #端口号465或587
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+    protocol: smtp
+    properties.mail.smtp.socketFactory.port: 465
+    properties.mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+    properties.mail.smtp.socketFactory.fallback: false
+    properties.mail.smtp.timeout: 1000
+
+
+
+#eureka:
+#  client:
+#    service-url:
+#      defalutZone: http://mytesta:8761/eureka/,http://mytestb:8762/eureka/
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.application.name}:${server.port}:@project.version@
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+dubbo:
+  scan:
+    base-packages: com.lagou.edu.service.impl # dubbo 服务扫描基准包
+  protocol:
+  # dubbo 协议
+    name: dubbo
+  # dubbo 协议端⼝（ -1 表示⾃增端⼝，从 20880 开始）
+    port: -1
+  registry:
+  # 挂载到 Spring Cloud 的注册中⼼
+    address: spring-cloud://localhost

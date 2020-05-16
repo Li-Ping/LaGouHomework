@@ -1,0 +1,64 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: lagou-service-code
+  main:
+    allow-bean-definition-overriding: true
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lee?useUnicode=true&characterEncoding=utf8 #jdbc:mysql://47.92.156.231:3306/zdy_mybatis?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+#eureka:
+#  client:
+#    service-url:
+#      defalutZone: http://mytesta:8761/eureka/,http://mytestb:8762/eureka/
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.application.name}:${server.port}:1.0-SNAPSHOT
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+dubbo:
+  scan:
+    base-packages: com.lagou.edu.service.impl # dubbo 服务扫描基准包
+  protocol:
+    # dubbo 协议
+    name: dubbo
+    # dubbo 协议端⼝（ -1 表示⾃增端⼝，从 20880 开始）
+    port: -1
+
+  registry:
+    # 挂载到 Spring Cloud 注册中⼼
+    address: spring-cloud://localhost
+  cloud:
+    # 订阅服务提供⽅的应⽤列表，订阅多个服务提供者使⽤ "," 连接
+    subscribed-services: lagou-service-email
