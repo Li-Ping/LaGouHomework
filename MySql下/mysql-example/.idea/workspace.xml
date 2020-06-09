@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93a30a9c-ed3f-44ea-a3ad-27eee29ec8f6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1d5JLcmyct9w5FW3lcMo9e8KTfY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="JUnit.COrderTest.testFind">
+    <configuration name="COrderTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.COrderTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COrderTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.COrderTest" />
+      <option name="METHOD_NAME" value="testFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COrderTest.testShardingCOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.COrderTest" />
+      <option name="METHOD_NAME" value="testShardingCOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.COrderTest.testFind" />
+        <item itemvalue="JUnit.COrderTest.testShardingCOrder" />
+        <item itemvalue="JUnit.COrderTest.addTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93a30a9c-ed3f-44ea-a3ad-27eee29ec8f6" name="Default Changelist" comment="" />
+      <created>1591708965366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591708965366</updated>
+      <workItem from="1591708969882" duration="6286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="770" y="388" key="#com.intellij.ide.util.MemberChooser" timestamp="1591714838780">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="770" y="388" key="#com.intellij.ide.util.MemberChooser/0.0.1805.1163@0.0.1805.1163" timestamp="1591714838780" />
+    <state width="1762" height="650" key="GridCell.Tab.0.bottom" timestamp="1591719647766">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="650" key="GridCell.Tab.0.bottom/0.0.1805.1163@0.0.1805.1163" timestamp="1591719647766" />
+    <state width="1762" height="650" key="GridCell.Tab.0.center" timestamp="1591719647766">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="650" key="GridCell.Tab.0.center/0.0.1805.1163@0.0.1805.1163" timestamp="1591719647766" />
+    <state width="1762" height="650" key="GridCell.Tab.0.left" timestamp="1591719647766">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="650" key="GridCell.Tab.0.left/0.0.1805.1163@0.0.1805.1163" timestamp="1591719647766" />
+    <state width="1762" height="650" key="GridCell.Tab.0.right" timestamp="1591719647766">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state width="1762" height="650" key="GridCell.Tab.0.right/0.0.1805.1163@0.0.1805.1163" timestamp="1591719647766" />
+    <state x="625" y="554" key="new project wizard" timestamp="1591709015470">
+      <screen x="0" y="0" width="1805" height="1163" />
+    </state>
+    <state x="625" y="554" key="new project wizard/0.0.1805.1163@0.0.1805.1163" timestamp="1591709015470" />
+  </component>
+</project>
